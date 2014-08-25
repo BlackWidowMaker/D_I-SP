@@ -1,0 +1,468 @@
+﻿body {
+	font-family: calibri, arial, sans-serif;
+	color: #0099FF;
+	background-color: #CCCCCC;
+	background-image: url(bg.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+	font-size: 71%;
+	margin: 0px;
+	line-height: 1.3em;
+}
+form {
+	margin:0;
+	padding:0;
+}
+h1 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 0; 
+}
+a, a:link, a:visited, .ms-WPBody a:visited, .ms-WPBody a:link {
+	color: #f77d1c;
+	text-decoration: none;
+}
+p {
+	margin-top: 0px;	
+}
+img {
+	border: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.customClear {
+	clear: both;
+}
+.customPageWidth {
+	width: 960px;
+	height: 100%;
+	margin: auto;
+	padding-top: 10px;
+}
+.customPagePadding {
+	padding: 0px 20px;	
+}
+.customTop {
+	background-image: url(top_bg.png);
+	background-repeat:no-repeat;
+	height: 31px;
+	width: auto;
+}
+.customTop a {
+	color: silver	
+}
+.customLogin {
+	background-image:url(login.gif);
+	background-repeat:no-repeat;
+	float:right;
+	height:13px;
+	position:relative;
+	top:7px;
+}
+.customHead {
+	background-image: url(header_bg.jpg);
+	background-repeat:repeat-x;
+	height: 120px;
+	width:auto;	
+}
+.customHead a {
+	color: white;	
+}
+.customHead a:hover {
+	/*text-decoration: none;*/
+}
+.customLogo {
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	height: 82px;
+	width: 335px;
+	float: left;
+	position:relative;
+	top:28px;
+}
+.customPhone {
+	background-image:url(phone.png);
+	background-repeat:no-repeat;
+	float:right;
+	height:27px;
+	position:relative;
+	top:30px;
+	width:227px;
+}
+.customHeaderRight {
+	float: right;
+}
+.customSearch {
+	float:right;
+	position:relative;
+	top:40px;
+}
+.customSearchBox {
+	background-image: url(searchbox.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 180px;
+	float: left;
+}
+.customSearch input {
+	background-color:transparent;
+	border:0 none;
+	font-size:93%;
+	padding:4px 0 0 4px;
+	width:95%;
+}
+.customSearchGo {
+	float: left;
+	background-image: url(seach_go.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 62px;
+	float: left;	
+}
+.customNav {
+	background-image: url(nav_bg.gif);
+	background-repeat: repeat-x;
+	height: 29px;
+	border-color: #00CC33;
+	border-style: solid;
+	border-width: 0 1px;
+	border-collapse: collapse;
+}
+.customTopNavHolder {
+	float: left;
+}
+.customBody {
+	background-image: url(subpage_bg.gif);
+	background-color: #CCC;
+	background-repeat: repeat-x;
+	min-height: 420px;
+	padding-top: 20px;
+	font-size: 120%;
+	padding: 20px 20px 40px;
+	width: 918px;
+	overflow: auto;
+	border-color: #FF6600;
+	border-style: solid;
+	border-width: 0 1px;
+}
+.customFooter {
+	background-image: url(footer_bg.jpg);
+	background-color: #0099FF;
+	background-repeat: repeat-x;
+	color: #0099FF;
+	font-size: 130%;
+	height: 110px;
+	padding-top: 25px;
+}
+.customFooter a {
+	color: #0099FF;
+}
+.customFooterLeft {
+	float: left;	
+	padding-top:10px;
+}
+.customFooterRight {
+	float: right;
+	padding-right:10px;
+}
+.customLinkGroup {
+	float:left;
+	margin-left:20px;
+	padding-top:10px;
+	width:auto;
+}
+.customFooterDiv {
+	background-image:url(footer_div.png);
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	height:70px;
+	margin-left:20px;
+	width:4px;
+}
+.customBottom {
+	background-image: url(roundedbottom_bg.png);
+	background-repeat: no-repeat;
+	height: 10px;
+	display: block;
+	padding-bottom: 20px;
+}
+
+/* home page styles */
+
+.customBanner {
+	float: right;
+	padding-top:17px;
+	height:45px;
+}
+.customBannerText {
+	float:left;
+	line-height:27px;
+	color: #eef0f0;
+	font-size: 248%;
+}
+.ms-WPBody a.customBannerText {
+	color: #EEF0F0;
+}
+.customBannerText:hover {
+	text-decoration: none;
+}
+.customBannerButton {
+	background-image:url(search_button.png);
+	background-repeat:no-repeat;
+	float:left;
+	height:31px;
+	margin-left:10px;
+	width:31px;
+}
+.customGapBeforePod {
+	height: 268px;
+	display: block;
+}
+.customPod {
+	border-left:1px solid #EDEDED;
+	float:left;
+	line-height:162%;
+	padding:0 27px 30px;
+	width:250px;
+}
+.customPod:first-child {
+	border: 0px none;	
+}
+.customPodHeader {
+	color:#111111;
+	font-size:200%;
+	margin-bottom:4px;
+	padding:21px 0;
+}
+
+/* sub page style */
+
+.customBody h1 {
+	font-size:175%;
+	font-weight:normal;
+	margin:2px 0 10px;
+}
+.customBreadcrumbs {
+	padding: 10px 0px;
+}
+.customBodyLeft {
+	float:left;
+	padding-right:60px;
+	vertical-align:top;
+	width:600px;
+}
+.customBodyRight {
+	float: left;
+	vertical-align: top;
+	width: 195px;
+}
+.customBodyImage {
+	padding-left: 4px;
+}
+.customOrderNow {
+	float: left;
+	background-image: url(ordernow.jpg);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 168px;
+	float: left;
+}
+
+
+
+/*
+-----------------------------------------------------------------------------
+  Search
+-----------------------------------------------------------------------------
+*/
+
+/* search button hider needed for pages that override the master page search button */
+.customSearch .ms-sbgo img {
+	display: none;
+}
+
+/* fancy search button */
+.customSearch .ms-sbgo a {
+	display: block;
+	height:20px;
+	width:62px;
+	background:transparent url('seach_go.gif') no-repeat scroll left top;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 0px;	
+}
+
+/*
+-----------------------------------------------------------------------------
+  Top Navigation
+-----------------------------------------------------------------------------
+*/
+
+/* arrow for flyouts */
+.menu-horizontal a.dynamic-children span.additional-background,
+.menu-horizontal span.dynamic-children span.additional-background {
+	padding-right:0px;
+	background-image:none;
+}
+
+/* item style */
+.s4-tn li.static > .menu-item {
+	color:#292929;
+	white-space:nowrap;
+	border:0px none transparent;
+	background-color:transparent;
+	height:17px;
+	padding:7px 10px 5px;
+	display:inline-block;
+	vertical-align:middle;
+	font-size:1.5em;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;		
+}
+
+/* selected style */
+.s4-tn li.static > .selected {
+	background-color: #ffebc8;
+	border-color: #e5ad45;
+	color: #292929;
+}
+
+/* item style hover */
+.s4-tn li.static > a:hover {
+	background-color: #ffebc8;
+	border-color: #e5ad45;
+	color: #292929;
+	text-decoration: none;
+}
+
+/* flyout holder */
+.s4-tn ul.dynamic {
+	background-color:#F09100;
+	border:0px none;
+	padding-top:1px;
+}
+
+/* flyout item */
+.s4-tn li.dynamic > .menu-item {
+	display:block;
+	white-space:nowrap;
+	font-weight:normal;
+	background-color: #ffebc8;
+	background-repeat: repeat-x;
+	border: 1px solid #F09100;
+	border-top: 0px;
+	color: #292929;
+	line-height: 1.2em;
+	font-size:1.5em;
+}
+
+/* flyout item hover */
+.s4-tn li.dynamic > a:hover {
+	font-weight:normal;
+	text-decoration:none;
+	background-color: white;
+	color: #292929;
+}
+
+/*
+-----------------------------------------------------------------------------
+  Overrides for out of the box Sp css
+-----------------------------------------------------------------------------
+*/
+
+/* hide body scrolling (SharePoint will handle) */
+body {
+	height:100%;
+	overflow:hidden;
+	width:100%;
+}
+		
+/* popout breadcrumb menu needs background color for firefox */
+.s4-breadcrumb-menu {
+	background:#F2F2F2;
+}		
+
+/* body area  */
+.s4-ca {
+	margin-left:165px;
+}	
+
+/* fix scrolling on list pages */
+#s4-bodyContainer {
+	position: relative;
+}
+
+/* fix the font on some ootb menus */
+.propertysheet, .ms-authoringcontrols {
+	font-family: Verdana,Arial,sans-serif;
+	line-height: normal;
+}
+
+/* fix the font on forms like the survey */
+.ms-ltviewselectormenuheader .ms-viewselector a, .ms-ltviewselectormenuheader .ms-viewselectorhover a, .ms-formlabel {
+	font-family: calibri, arial, sans-serif; 
+}
+
+/* hide the hover state for teh ribbon links */
+#s4-ribbonrow a:hover {
+	text-decoration: none;
+}
+
+/* fix ribbon line height */
+#s4-ribbonrow {
+	line-height: normal;
+}
+
+/* make the ribbon color match the branding*/
+body #s4-ribboncont {
+	background-color: #313031;
+}
+
+/* make site settings links look normal */
+.ms-linksection-level1 ul li a {
+	font-weight:normal;
+}
+
+/* make the site actions colors match the branding */
+.ms-siteactionsmenuinner  {
+	background:url("/_layouts/images/bgximg.png") repeat-x scroll 0 -467px #313031;
+	border-color:#313031;
+}
+
+/* fix margins when dialog is up */
+.ms-dialog .customPageWidth, .ms-dialog .customBody {
+	margin-left:0 !important;
+	margin-right:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	width:auto !important;
+	height:auto !important;
+	background-color: white !important;
+	background-image: none !important;
+	padding: 0px !important;
+	overflow:inherit;
+}
+
+/* dialog bg */
+.ms-dialog body {
+	background-color: white;
+	background-image: none;
+}
+
+/* fix dialog padding */
+.ms-dialog .s4-wpcell-plain {
+	padding: 4px;
+}
+
+/* fix field edit mode width problems */
+.ms-formfieldvaluecontainer {
+	overflow:hidden;
+}
+
+/* fix the blog font size */
+.ms-PostBody {
+	font-size: 100%;
+}
